@@ -1,0 +1,9 @@
+configuration {
+	modi:"drun,ssh";
+	width: 750;
+	lines: 13;
+	show-match: false;
+	separator-style:"solid";
+	hide-scrollbar: true;
+	theme:"~/.config/rofi/nord";
+}
