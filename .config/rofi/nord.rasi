@@ -1,23 +1,31 @@
+//                 ___                                  __     
+//               /'___\ __                             /\ \    
+//   _ __   ___ /\ \__//\_\        ___     ___   _ __  \_\ \   
+//  /\`'__\/ __`\ \ ,__\/\ \     /' _ `\  / __`\/\`'__\/'_` \  
+//  \ \ \//\ \L\ \ \ \_/\ \ \    /\ \/\ \/\ \L\ \ \ \//\ \L\ \ 
+//   \ \_\\ \____/\ \_\  \ \_\   \ \_\ \_\ \____/\ \_\\ \___,_\
+//    \/_/ \/___/  \/_/   \/_/    \/_/\/_/\/___/  \/_/ \/__,_ /
+
 * {
     nord0:			 #2E3440;
-    nord1: 			 #3B4252;
-    nord2: 			 #434C5E;
-    nord3: 			 #4C566A;
-    nord4: 			 #D8DEE9;
-    nord5:  			 #E5E9F0;
-    nord6:  			 #ECEFF4;
-    nord7: 			 #8FBCBB;
-    nord8:   			 #88C0D0;
-    nord9:  			 #81A1C1;
-    nord10: 			 #5E81AC;
-    nord11: 			 #BF616A;
-    nord12: 			 #D08770;
-    nord13: 			 #EBCB8B;
-    nord14: 			 #A3BE8C;
-    nord15: 			 #B48EAD;
+    nord1:                       #3B4252;
+    nord2:                       #434C5E;
+    nord3:                       #4C566A;
+    nord4:                       #D8DEE9;
+    nord5:                       #E5E9F0;
+    nord6:                       #ECEFF4;
+    nord7:                       #8FBCBB;
+    nord8:                       #88C0D0;
+    nord9:                       #81A1C1;
+    nord10:                      #5E81AC;
+    nord11:                      #BF616A;
+    nord12:                      #D08770;
+    nord13:                      #EBCB8B;
+    nord14:                      #A3BE8C;
+    nord15:                      #B48EAD;
     background:                  @nord0;
     foreground:                  @nord4;
-    selected-normal-foreground:  @nord4;
+    selected-normal-foreground:  @nord0;
     normal-foreground:           @foreground;
     alternate-normal-background: @nord0;
     selected-urgent-foreground:  @nord4;
@@ -29,8 +37,8 @@
     bordercolor:                 @nord10;
     alternate-normal-foreground: @foreground;
     normal-background:           @background;
-    selected-normal-background:  @nord3;
-    border-color:                @nord10;
+    selected-normal-background:  @nord7;
+    border-color:                @nord3;
     spacing:                     2;
     separatorcolor:              @blue;
     urgent-background:           @background;
@@ -42,23 +50,21 @@
     selected-active-background:  @nord3;
 }
 
-//----------------------
-// Style
-//----------------------
+// style
 
 #window {
     background-color: @background;
 }
 
 #mainbox {
-    border:  2;
-    padding: 10;
+    border:  4;
+    padding: 12;
 }
 
 #message {
     border:       2px 2px 2px ;
     border-color: @separatorcolor;
-    padding:      10 ;
+    padding:      12 ;
 }
 
 #textbox {
@@ -67,13 +73,13 @@
 
 #listview {
     fixed-height: 0;
-    padding:	  5 0 0;
-    spacing:      5px ;
+    padding:	  4 0 0;
+    spacing:      4px ;
 }
 
 #element {
     border:  0;
-    padding: 5px ;
+    padding: 4px ;
 }
 
 #element.normal.normal {
@@ -127,10 +133,10 @@
 }
 
 #inputbar {
-    spacing:    5;
+    spacing:    12;
     text-color: @normal-foreground;
-    padding:    5px ;
-    border:	0 0 1;
+    padding:    4px ;
+    border:	0 0 2;
     border-color: @separatorcolor;
 }
 

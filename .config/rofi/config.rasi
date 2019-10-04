@@ -1,7 +1,16 @@
+//                 ___
+//               /'___\ __    
+//   _ __   ___ /\ \__//\_\   
+//  /\`'__\/ __`\ \ ,__\/\ \  
+//  \ \ \//\ \L\ \ \ \_/\ \ \ 
+//   \ \_\\ \____/\ \_\  \ \_\
+//    \/_/ \/___/  \/_/   \/_/
+//                            
+
 configuration {
 	modi:"drun,ssh";
-	width: 750;
-	lines: 13;
+	width: 25%;
+	lines: 12;
 	show-match: false;
 	separator-style:"solid";
 	hide-scrollbar: true;
