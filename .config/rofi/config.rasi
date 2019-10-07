@@ -9,7 +9,8 @@
 
 configuration {
 	modi:"drun,ssh";
-	width: 25%;
+//	fullscreen: true;
+	width: 33;
 	lines: 12;
 	show-match: false;
 	separator-style:"solid";

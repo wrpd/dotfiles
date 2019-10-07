@@ -1,8 +1,8 @@
-!   __  _  _ __    __    ____    ___   __  __  _ __   ___     __    ____  
-!  /\ \/'\/\`'__\/'__`\ /',__\  / __`\/\ \/\ \/\`'__\/'___\ /'__`\ /',__\ 
+!   __  _  _ __    __    ____    ___   __  __  _ __   ___     __    ____ 
+!  /\ \/'\/\`'__\/'__`\ /',__\  / __`\/\ \/\ \/\`'__\/'___\ /'__`\ /',__\
 !  \/>  </\ \ \//\  __//\__, `\/\ \L\ \ \ \_\ \ \ \//\ \__//\  __//\__, `\
 !   /\_/\_\\ \_\\ \____\/\____/\ \____/\ \____/\ \_\\ \____\ \____\/\____/
-!   \//\/_/ \/_/ \/____/\/___/  \/___/  \/___/  \/_/ \/____/\/____/\/___/ 
+!   \//\/_/ \/_/ \/____/\/___/  \/___/  \/___/  \/_/ \/____/\/____/\/___/
                                                                          
 
 !### color config ###
@@ -32,6 +32,7 @@
 *.foreground:   nord4
 *.background:   nord0
 *.cursorColor:  nord4
+*.background-alpha: #F04C566A
 
 ! black
 *.color0:       nord1
@@ -68,7 +69,7 @@
 !### URxvt config ###
 
 !### extensions ###
-URxvt.perl-ext-common: default,clipboard,matcher
+URxvt.perl-ext-common: default,matcher
 URxvt.matcher.rend.0: Uline Bold nord14
 URxvt.url-launcher: firefox
 URxvt.matcher.button: 1
@@ -80,3 +81,4 @@ URxvt.iso14755: false
 URxvt.cursorBlink: true
 URxvt.scrollBar: false
 URxvt*font: xft: Inconsolata:size=12
+URxvt.saveLines: 20000

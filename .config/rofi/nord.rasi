@@ -38,7 +38,7 @@
     alternate-normal-foreground: @foreground;
     normal-background:           @background;
     selected-normal-background:  @nord7;
-    border-color:                @nord3;
+    border-color:                @nord1;
     spacing:                     2;
     separatorcolor:              @blue;
     urgent-background:           @background;
