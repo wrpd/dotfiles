@@ -69,7 +69,7 @@
 !### URxvt config ###
 
 !### extensions ###
-URxvt.perl-ext-common: default,matcher
+URxvt.perl-ext-common: default,matcher,clipboard
 URxvt.matcher.rend.0: Uline Bold nord14
 URxvt.url-launcher: firefox
 URxvt.matcher.button: 1
