@@ -14,7 +14,7 @@ sxhkd &
 
 feh --bg-center ~/.config/wallpaper-debian.png &
 
-$HOME/.config/polybar/launch.sh &
+polybar wrpd &
 
 compton &
 
@@ -25,9 +25,9 @@ discord &
 xsetroot -cursor_name left_ptr
 
 # monitor config
-bspc monitor HDMI-0 -d I II III IV
-bspc monitor DP-2 -d V VI VII VIII
-bspc monitor DP-5 -d IX X XI XII
+bspc monitor HDMI-0 -n 1 -d I II III IV
+bspc monitor DP-2 -n 2 -d I II III IV
+bspc monitor DP-5 -n 3 -d I II III IV
 
 # style config
 bspc config border_width         4
@@ -49,5 +49,5 @@ bspc rule -a Riot desktop=^2
 bspc rule -a discord desktop=^2
 bspc rule -a plexmediaplayer desktop=^3
 bspc rule -a Emacs desktop=^4
-bspc rule -a vlc desktop=^9 
+bspc rule -a vlc desktop=^9
 bspc rule -a obs desktop=^10

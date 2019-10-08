@@ -10,7 +10,7 @@
 
 [colors]
 background = ${xrdb:color0:#222}
-border = ${xrdb:color8:#222}
+inactive = ${xrdb:color8:#222}
 foreground = ${xrdb:color7:#222}
 background-alt = ${xrdb:color14:#222}
 foreground-alt = ${xrdb:color7:#222}
@@ -32,20 +32,42 @@ font-1 = FontAwesome:pixelsize=13;3
 font-2 = MaterialDesignIcons:pixelsize=13;3
  
 modules-left = bspwm
-modules-center = date
+modules-center =  date
 modules-right = powermenu
+
+[bar/wrpd-l]
+inherit = bar/wrpd
+
+monitor = HDMI-0
+
+modules-left = bspwm
+modules-center = 
+modules-right = 
+
+[bar/wrpd-r]
+inherit = bar/wrpd
+
+monitor = DP-5
+
+modules-left = bspwm
+modules-center = 
+modules-right = 
 
 [module/bspwm]
 type = internal/bspwm
 
-pin-workspaces = false
+pin-workspaces = true
 
 ws-icon-0=I;
 ws-icon-1=II;
-ws-icon-2=III;
-ws-icon-3=IV;
-ws-icon-4=IX;
-ws-icon-5=X;
+ws-icon-2=III;
+ws-icon-3=IV;
+ws-icon-4=V;
+ws-icon-5=VI;
+ws-icon-6=VII;
+ws-icon-7=VIII;
+ws-icon-8=IX;
+ws-icon-9=X;
 
 ;label-monitor = %name%
 
@@ -55,11 +77,12 @@ label-focused-padding = 2
 
 
 label-occupied = %icon%
+label-occupied-foreground = ${colors.foreground-alt}
 label-occupied-padding = 2
 label-urgent = %index%!
 
 label-empty = %icon%
-label-empty-foreground = ${colors.foreground-alt}
+label-empty-foreground = ${colors.inactive}
 label-empty-padding = 2
 
 [module/title]
