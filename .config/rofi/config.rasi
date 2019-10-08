@@ -9,11 +9,10 @@
 
 configuration {
 	modi:"drun,ssh";
-//	fullscreen: true;
 	width: 33;
 	lines: 12;
 	show-match: false;
 	separator-style:"solid";
 	hide-scrollbar: true;
-	theme:"~/.config/rofi/nord";
+	theme:"~/.config/rofi/themes/theme.rasi";
 }

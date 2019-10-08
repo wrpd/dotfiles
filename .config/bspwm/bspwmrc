@@ -49,5 +49,5 @@ bspc rule -a Riot desktop=^2
 bspc rule -a discord desktop=^2
 bspc rule -a plexmediaplayer desktop=^3
 bspc rule -a Emacs desktop=^4
-bspc rule -a vlc desktop=^9 
+bspc rule -a vlc desktop=^9
 bspc rule -a obs desktop=^10
